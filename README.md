@@ -1,6 +1,6 @@
 # nz.co.fuzion.buttondisplay
 
-![Screenshot](/images/screenshot.png)
+![Screenshot](/images/options.png)
 
 (*FIXME: In one or two paragraphs, describe what the extension does and why one would download it. *)
 
