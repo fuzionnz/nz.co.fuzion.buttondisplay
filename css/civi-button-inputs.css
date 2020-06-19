@@ -1,0 +1,58 @@
+/* lines up top of all new buttons */
+#priceset.crm-section  div.content {
+  padding-top: 0px;
+}
+
+/* prevents various sections from overlapping or wrapping weirdly if the description includes
+images or divs, not a bad candidate for basic Civi css */
+#crm-container.crm-public .crm-section, .crm-section {
+  display: flow-root;
+}
+
+/* Styling the buttons */
+.price-set-option-content input[type="radio"],
+.price-set-option-content input[type="radio"] + label,
+.is_recur_radio-section input[type="radio"],
+.is_recur_radio-section input[type="radio"] + label,
+.price-set-option-content input[type="checkbox"],
+.price-set-option-content input[type="checkbox"] + label {
+  float:left;
+  width:180px;
+  margin:4px;
+  background-color:#e9e1ef;
+  border-radius:4px;
+  border:1px solid #D0D0D0;
+  overflow:auto;
+  padding:13px 6px;
+}
+
+/* Styling the labels */
+.price-set-option-content label,
+.price-set-option-content label span,
+.price-set-option-content input[type="checkbox"] + label {
+  text-align:center;
+  /* font-size: 32px; */
+  display:block;
+}
+
+/* make Total Amount same size as button text */
+#crm-container.crm-public .calc-value {
+  font-size: 32px;
+}
+
+.price-set-option-content input[type="radio"]:checked,
+.price-set-option-content input[type="radio"]:checked + label,
+.is_recur_radio-section input[type="radio"]:checked,
+.is_recur_radio-section input[type="radio"]:checked + label,
+.price-set-option-content input[type="checkbox"]:checked,
+.price-set-option-content input[type="checkbox"]:checked + label {
+  background-color:#BA90D6;
+}
+
+.price-set-option-content input[type="radio"],
+.is_recur_radio-section input[type="radio"],
+.price-set-option-content input[type="checkbox"],
+span.crm-price-amount-label-separator {
+  position: fixed;
+  top: -50px;
+}
